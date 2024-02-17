@@ -3,12 +3,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
     "autoprefixer": "10.4.17",
+    "drizzle-orm": "^0.29.3",
     "geist": "^1.2.1",
     "next": "latest",
     "postcss": "8.4.33",
@@ -21,6 +23,8 @@
     "@types/node": "20.11.5",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
+    "cypress": "^13.6.4",
+    "drizzle-kit": "^0.20.14",
     "encoding": "^0.1.13"
   }
 }
